@@ -36,7 +36,31 @@ function openModal(obj) {
     case "Gymnastics":
       document.getElementById("gymnasticModal").style.display = "block";
       break;
-  }
+      case "Climbing":
+      document.getElementById("climbingModal").style.display = "block";
+      break;
+      case "Skiing":
+      document.getElementById("skiingModal").style.display = "block";
+      break;
+      case "Weight Lifting":
+      document.getElementById("weightLiftingModal").style.display = "block";
+      break;
+      case "Basketball":
+      document.getElementById("basketballModal").style.display = "block";
+      break;
+      case "Swimming":
+      document.getElementById("swimmingModal").style.display = "block";
+      break;
+      case "Jogging":
+      document.getElementById("joggingModal").style.display = "block";
+      break;
+      case "Running":
+      document.getElementById("runningModal").style.display = "block";
+      break;
+      case "Cycling":
+      document.getElementById("cyclingModal").style.display = "block";
+      break;
+      }
 }
 
 function hideModal(obj) {

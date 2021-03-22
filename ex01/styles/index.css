@@ -5,7 +5,7 @@
     max-width: 1440px;
     margin: 0 auto;
   }
-  .grid-item {
+  .grid-item, .pullLeft {
     text-align: center;
     position: relative;
   }
@@ -26,6 +26,16 @@
   }
   
   .grid-item:hover .overlay {
+    background: rgba(black, 0.5);
+  }
+  .pullLeft:hover img {
+    background: rgba(black, 0.5);
+  }
+
+  .grid-item:hover > * {
+    opacity: 1;
+    }
+  .pullLeft:hover  > * {
     opacity: 1;
   }
 
