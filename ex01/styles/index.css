@@ -25,11 +25,11 @@
     transition: .5s ease;
   }
   
-  .grid-item:hover .overlay {
-    background: rgba(black, 0.5);
-  }
+  .grid-item:hover img {
+    opacity: 0.5;
+    }
   .pullLeft:hover img {
-    background: rgba(black, 0.5);
+    opacity: 0.5;
   }
 
   .grid-item:hover > * {
